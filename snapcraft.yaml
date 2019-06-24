@@ -6,8 +6,8 @@ description: |
   Intended to help access Janus WebRTC Server instance behind NAT.
   Should be used in combination with janus-signalling-proxy-agent
   running on Janus instance side.
-grade: devel
-confinement: devmode
+grade: stable
+confinement: strict
 architectures:
   - build-on: amd64
   - build-on: i386
