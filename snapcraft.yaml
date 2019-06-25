@@ -47,7 +47,7 @@ parts:
       - libjansson4
 
 apps:
-  proxy:
+  janus-signalling-proxy:
     command: ProxyApp
     daemon: simple
     plugs:
